@@ -6,7 +6,7 @@ body {
 }
 
 /*NAVIGTION BAR*/
-.nav_container {
+#nav_container {
     z-index: 9;
     background-color: black;
     color: white;
@@ -16,6 +16,7 @@ body {
     width: 100%;
     position: fixed;
     top: 0;
+    transition: top 0.3s;
 }
 
 .nav_container__top {
@@ -62,6 +63,9 @@ body {
     text-decoration: none;
     color: rgb(192, 20, 29);
 }
+.nav_bottom_list__item > a:hover {
+    color: yellow;
+}
 
 ul {
     list-style: none;
@@ -78,6 +82,9 @@ ul {
     height: 644px;
     
     color: white;
+}
+#fixscroll {
+    transition: top 0.3s; /*To fix 10 px gap*/
 }
 #overview_text {
     padding: 0;
@@ -143,18 +150,18 @@ ul {
 .recnup {
     background-color: #C0C0C0;
 }
-.recnup > div{
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 .recnup > h2 {
     text-align: center;
     margin: 0;
     padding: 1rem 0 1rem 0;
     color: crimson;
     text-shadow: 2px 1px #202020;
+}
+.recnup > div{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .recnup > div > figure > figcaption {
     text-align: center;
@@ -199,6 +206,13 @@ ul {
     font-size: 1.2rem;
     border-top: 1px solid grey;
 }
-.footer>p {
+.footer > p {
     margin-bottom: 0;
+}
+.footer > p > a {
+    text-decoration: none;
+    color: rgb(134, 19, 25);
+}
+.footer > p > a:hover {
+    color: red;
 }

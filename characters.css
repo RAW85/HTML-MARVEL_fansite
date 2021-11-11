@@ -1,0 +1,43 @@
+#current {
+    color: white;
+}
+
+.char {
+    margin-top: 150px;
+    background-color: #C0C0C0;
+}
+.char > h1 {
+    text-align: center;
+    margin: 0;
+    padding: 1rem 0 1rem 0;
+    color: crimson;
+    text-shadow: 2px 1px #202020;
+}
+.char > div {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.char > div > figure {
+    max-width: 25%;
+}
+.picture {
+    max-width: 100%;
+}
+.name {
+    text-align: center;
+    font-weight: 200;
+    font-size: medium;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: large;
+    color: rgb(56, 32, 102);
+}
+.caption {
+    text-align: center;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+#villain {
+    margin-top: 0;
+}
