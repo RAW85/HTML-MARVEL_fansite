@@ -2,6 +2,11 @@
     color: white;
 }
 
+#main-div {
+    height: 100vh;
+    background-color: #5f5959;
+}
+
 .block {
     text-align: center;
     
@@ -41,6 +46,11 @@
     #aboutme {
         font-size: medium;
     }
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
 }
 
 #form {
@@ -54,4 +64,5 @@
 }
 #message_dibba {
     height: 4rem;
+    margin-right: 2rem;
 }
