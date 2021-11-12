@@ -12,9 +12,9 @@ body {
     color: white;
     font-family: 'Helvetica', sans-serif;
     padding: 0;
-    height: 150px;
+    /*height: 150px;*/
     width: 100%;
-    position: fixed;
+    position: sticky;
     top: 0;
     transition: top 0.3s;
 }
@@ -74,7 +74,7 @@ ul {
 
 /*OVERVIEW*/
 .overview {
-    margin-top: 150px;
+    /*margin-top: 150px;*/
     background-color: black;
     background-image: url("./images/overview.png");
     background-repeat: no-repeat;
@@ -106,16 +106,19 @@ ul {
     max-width: 45%;
     padding-left: 3rem;
     line-height: 200%;
+    margin: 0;
 }
 .overview-p2 {
     max-width: 35%;
     padding-left: 3rem;
     line-height: 200%;
+    margin: 0;
 }
 .overview-p3 {
     max-width: 25%;
     padding-left: 3rem;
     line-height: 200%;
+    margin: 0;
 }
 
 @media(max-width: 1231px) {
