@@ -83,9 +83,9 @@ ul {
     
     color: white;
 }
-#fixscroll {
-    transition: top 0.3s; /*To fix 10 px gap*/
-}
+/*#fixscroll {
+    transition: top 0.3s; /*To fix 10 px gap
+}*/
 #overview_text {
     padding: 0;
     text-overflow: scroll;
@@ -212,10 +212,17 @@ ul {
 .footer > p {
     margin-bottom: 0;
 }
-.footer > p > a {
+#marvel {
     text-decoration: none;
     color: rgb(134, 19, 25);
 }
-.footer > p > a:hover {
-    color: red;
+#marvel:hover {
+    color: crimson;
+}
+#imdb {
+    text-decoration: none;
+    color: rgb(53, 85, 2);
+}
+#imdb:hover {
+    color: yellow;
 }

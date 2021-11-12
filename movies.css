@@ -1,0 +1,49 @@
+/*BEING USED IN movies, tv shows, games*/
+
+#current {
+    color: white;
+}
+
+/*PHASES*/
+.phase {
+    background-color: #C0C0C0;
+}
+.phase > h1 {
+    text-align: center;
+    margin: 0;
+    padding: 2rem 0 1rem 0;
+    color: crimson;
+    text-shadow: 2px 1px #202020;
+}
+.phase > div {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.phase > div > figure {
+    max-width: 25%;
+    text-align: center;
+}
+
+.movie_name {
+    text-align: center;
+    font-weight: 1000;
+    font-size: large;
+    font-family: 'Gill Sans', sans-serif;
+}
+.picture {
+    max-width: 100%;
+}
+.YT_links {
+    text-decoration: none;
+    font-weight: 1000;
+    color: rgb(33, 126, 103);
+}
+.YT_links:hover {
+    color: red;
+}
+.movie_caption {
+    text-align: center;
+    font-family: 'Comic Sans MS', sans-serif;
+}
